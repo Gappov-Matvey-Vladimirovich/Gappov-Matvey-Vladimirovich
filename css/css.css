@@ -1,3 +1,23 @@
+/* DEFAULT */
+body{
+	-webkit-font-smoothing:antialised;
+}
+
+body *::-moz-selection {
+	background: #bbb;
+	color: #fff;
+}
+
+body *::-webkit-selection {
+	background: #bbb;
+	color: #fff;
+}
+
+body *::selection {
+	background: #bbb;
+	color: #fff;
+}
+
 /* LINKS */
 a,a:hover,a:focus{
 	color: #ff9ea3;
@@ -21,6 +41,7 @@ a,a:hover,a:focus{
 	font-size: 125%;
 	font-weight: bold;
 	letter-spacing: 3px;
+	cursor:default;
 }
 
 
@@ -65,6 +86,7 @@ a,a:hover,a:focus{
 	text-align: center;
 	font-size: 812%;
 	font-weight: 100;
+	cursor:default;
 }
 
 
@@ -103,6 +125,7 @@ nav a:hover{
 	margin-top: 10%;
 	margin-bottom: 4%;
 	text-transform: uppercase;
+	cursor:default;
 }
 .nice-title:after{
 	content: '';
