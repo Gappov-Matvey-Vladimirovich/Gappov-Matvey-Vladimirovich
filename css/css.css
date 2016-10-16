@@ -54,7 +54,7 @@ a,a:hover,a:focus{
 	border: 2px solid #fff;
 	box-sizing: content-box;
 	background: pink;
-	cursor: pointer;
+	cursor: zoom-in;
 }
 .rogue .photos img:hover{
 	border: 2px solid #ff9ea3;
